@@ -23,7 +23,8 @@
     width: 160px;
     height: 134px;
     border: 3px solid transparent;
-    transition: transform 400ms linear;
+    transition: transform 400ms;
+    transition-timing-function: linear;
   }
 
   &__image:hover {
