@@ -1,12 +1,8 @@
 .content {
   &__wrapper {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, $card-width);
     max-width: ($between-cards * 3) + ($card-width * 4);
+    gap: 50px 48px;
   }
-
-  &__item {
-    margin: 0 #{$between-cards} 50px 0;
-  }
-
 }
